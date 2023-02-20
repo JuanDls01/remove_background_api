@@ -6,11 +6,6 @@ import numpy as np
 import torch
 from torchvision import transforms
 
-# save the background 
-# urlretrieve(background_url, background_file)
-
-# plt.imshow(Image.open(background_file))
-
 def load_model():
   model = torch.hub.load('pytorch/vision:v0.10.0', 'deeplabv3_resnet50', pretrained=True)
   model.eval()
