@@ -1,6 +1,6 @@
 # REMOVE BACKGROUND API
 
-With this API you can remove the background of your selfies using the model Selfie Segmentation of mediapipe. For run this API in local you have to run this code in the terminal at remove_backgroun_api folder:
+With this API you can remove the background of your selfies using [Selfie Segmentation](https://google.github.io/mediapipe/solutions/selfie_segmentation.html) model of [Mediapipe](https://google.github.io/mediapipe/). For run this API in local you have to run this code in the terminal at remove_backgroun_api folder:
 
 ```
 $ python -m venv venv # windows
@@ -13,7 +13,7 @@ Then, go to postman and send a selfie picture by form data like this:
 
 - Original picture:
 
-![initial image](/content/fotoperfil.jpeg` "First Picture")
+![initial image](/content/fotoperfil.jpeg "First Picture")
 
 - Postman:
 
