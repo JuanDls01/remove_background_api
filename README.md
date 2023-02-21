@@ -13,12 +13,12 @@ Then, go to postman and send a selfie picture by form data like this:
 
 - Original picture:
 
-[[!`/content/Foto Perfil.jpeg`](https://raw.githubusercontent.com/JuanDls01/remove_background_api/main/content/Foto%20perfil.jpeg)](https://raw.githubusercontent.com/JuanDls01/remove_background_api/main/content/Foto%20perfil.jpeg)
+![Alt text](`/content/Foto%20Perfil.jpeg` "Optional title")
 
 - Postman:
 
-[![Postman](`/content/postman.png`)](https://raw.githubusercontent.com/JuanDls01/remove_background_api/main/content/postman.png)
+![postman image](/content/postman.png "Postman")
 
 And see the results in preview response
 
-[![Result](`/content/result.png`)](https://raw.githubusercontent.com/JuanDls01/remove_background_api/main/content/result.png)
+![results image](/content/result.png)
