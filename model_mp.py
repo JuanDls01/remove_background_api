@@ -22,7 +22,7 @@ def remove_background_mediapipe(input_file):
         bg_image[:] = BG_COLOR
         
         # If we want a background blur we can do:
-        # blurred_image = cv2.GaussianBlur(image,(55,55),0)
+        blurred_image = cv2.GaussianBlur(image,(55,55),0)
     
         # Convert the BGR image to RGB before processing.
         image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -30,6 +30,6 @@ def remove_background_mediapipe(input_file):
         results = selfie_segmentation.process(image_rgb)
 
         condition = np.stack((results.segmentation_mask,) * 3, axis=-1) > 0.5
-        output_image = np.where(condition, image, bg_image)
+        output_image = np.where(condition, image, blurred_image)
 
         return output_image
