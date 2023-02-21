@@ -11,4 +11,14 @@ $ uvicorn main:app --reload
 
 Then, go to postman and send a selfie picture by form data like this:
 
+- Original picture:
+
+![Alt text](`/content/Foto%20Perfil.jpeg` "Optional title")
+
+- Postman:
+
+![postman image](/content/postman.png "Postman")
+
 And see the results in preview response
+
+![results image](/content/result.png)
