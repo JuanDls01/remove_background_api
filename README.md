@@ -13,7 +13,7 @@ Then, go to postman and send a selfie picture by form data like this:
 
 - Original picture:
 
-![Alt text](`/content/Foto%20Perfil.jpeg` "Optional title")
+![initial image](/content/fotoperfil.jpeg` "First Picture")
 
 - Postman:
 
